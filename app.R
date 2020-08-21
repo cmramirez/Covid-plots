@@ -345,11 +345,9 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 
 
-library(rsconnect)
-rsconnect::setAccountInfo(name='covidvisuals', token='6F26A6BFE755D6C6915CBCB61DDD6672', 
-                          secret='Wod8LEZK8e4OW5u0OSDWsCjGSdTLs8/BImKqDM36')
 
-#rsconnect::deployApp('~/Box/Shiny')
+
+
 
 
 deployApp()
